@@ -1,1 +1,1 @@
-Hello
+This repo contain all Machine learning algorithm that I know & implement.
