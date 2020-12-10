@@ -16,11 +16,12 @@ def hits(M, num_iterations: int = 100):
 
     return a ,h 
 
-M = np.array([[1, 1, 1, 1, 1],
+M = np.array([[0, 1, 0, 1, 1],
               [0, 0, 0, 0, 0],
-              [0, 0, 0, 0, 0],
+              [1, 0, 0, 0, 0],
               [0, 0, 0, 0, 0],
               [0, 0, 0, 0, 0]])
-a,h = hits(M, 100)
+a,h = hits(M, 50)
 print(a,h)
+
 
